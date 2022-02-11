@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'djecommerce.urls'
+ROOT_URLCONF = 'ecommerce.urls'
 
 TEMPLATES = [
     {
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djecommerce.wsgi.application'
+WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
